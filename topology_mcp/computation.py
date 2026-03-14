@@ -9,7 +9,7 @@ and coordinate-to-prompt vocabulary extraction.
 import math
 from typing import Dict, List, Optional, Tuple, Any
 
-from .taxonomy import (
+from taxonomy import (
     PARAMETER_NAMES,
     CANONICAL_STATES,
     VISUAL_TYPES,
