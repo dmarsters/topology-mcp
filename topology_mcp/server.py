@@ -21,16 +21,16 @@ from typing import Optional, List, Dict
 from enum import Enum
 
 from pydantic import BaseModel, Field, ConfigDict, field_validator
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
-from .taxonomy import (
+from taxonomy import (
     PARAMETER_NAMES,
     CANONICAL_STATES,
     VISUAL_TYPES,
     SURFACES,
     PRESETS,
 )
-from .computation import (
+from computation import (
     compute_trajectory,
     generate_preset_trajectory,
     apply_preset,
